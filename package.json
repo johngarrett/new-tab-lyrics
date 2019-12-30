@@ -1,0 +1,9 @@
+{
+    "name": "new-tab-lyrics",
+    "version": "0.0.1",
+    "description": "lyrics on chrome new tab page",
+    "main": "index.js",
+    "dependencies": {
+        "genius-api": "^0.4.1"
+    }
+}
