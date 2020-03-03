@@ -1,3 +1,6 @@
+`pip3 install lyricsgenius`
+https://github.com/johnwmillr/LyricsGenius
+
 #### newtab lyrics
 enter a set of artist names and everytime you open a new tab, their lyrics will appear
 
