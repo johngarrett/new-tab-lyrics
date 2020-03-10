@@ -11,4 +11,34 @@ enter a set of artist names and everytime you open a new tab, their lyrics will 
 - have a thumbs up and thumbs down
 - when a user inputs an artist's name, download 100 songs to the server to speed up retrevial in the future
 - store each lyric with a rating next to it
--
+
+
+#### database structure
+~~|-ArtistName1~~
+~~|-ArtistName2~~
+~~|-ArtistName3~~
+~~| |-song1~~
+~~| |-song2~~
+~~| | |-line1~~
+~~| | |-line2~~
+
+```ascii
+|-ArtistName1
+|-ArtistName2
+|-ArtistName3
+| |-line1
+| | |-songName
+| | |-rating
+| |-line2
+```
+
+line fields
+- raiting
+    - 0 - 1 
+    - ratio of positive to negative
+- ~~songName~~ song
+    - the song it came from
+- ~~explicit~~
+    - boolean
+- ~~id~~~ this is auto added via mongo (i think)
+    - ID to recall the lyric
