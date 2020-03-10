@@ -42,3 +42,9 @@ line fields
     - boolean
 - ~~id~~~ this is auto added via mongo (i think)
     - ID to recall the lyric
+
+
+#### todo
+- remove duplicate lyrics
+- search database for songs first
+-
