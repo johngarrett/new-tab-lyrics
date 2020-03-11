@@ -1,4 +1,6 @@
 package-lock.json
 node_modules/
-*.json  
- 
+.*.swp
+*.swp
+ntl-server/.build/*
+ntl-server/.swiftpm/*
