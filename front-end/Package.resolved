@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HyperSwift",
+        "repositoryURL": "https://www.github.com/johngarrett/HyperSwift",
+        "state": {
+          "branch": "master",
+          "revision": "1c478b5d129d359402e7e501d32e6e16b862a1c2",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
